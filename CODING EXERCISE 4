@@ -1,0 +1,21 @@
+package selfProgramming;
+import java.util.*;
+class exercise4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner (System.in);
+		
+		int age;
+		System.out.println("Enter age :");
+		age = sc.nextInt();
+		if (age>30)
+
+			System.out. print ( "Age is greater than 30") ; 
+		else
+
+			System.out. print ("Age is smaller than 30") ;
+
+	}
+
+}
