@@ -7,7 +7,7 @@ class exercise2 {
 
 		Scanner sc = new Scanner(System.in);
 		double radius, area;
-		
+		System.out.println("Enter radius:");
 		radius = sc.nextDouble();
 		if (radius> 0)
 		
