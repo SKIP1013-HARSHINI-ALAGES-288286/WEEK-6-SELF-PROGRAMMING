@@ -1,0 +1,21 @@
+package selfProgramming;
+
+class Slide23 {
+
+	public static void main(String[] args) {
+		int amount = 110;
+		int balance = 20;
+		int OVERDRAFT_PENALTY = 2;
+		
+		if (amount <= balance)
+		{
+			balance = balance - amount;
+		System.out.println("Acc new balance = " + balance);
+		}
+		else
+			balance = balance - OVERDRAFT_PENALTY;
+		System.out.println("TRANSACTION NOT ALLOWED");
+
+	}
+
+}
