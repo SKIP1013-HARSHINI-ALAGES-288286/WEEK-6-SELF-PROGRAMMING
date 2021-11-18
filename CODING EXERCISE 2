@@ -1,0 +1,23 @@
+package selfProgramming;
+import java. util.*;
+class exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method s
+
+		Scanner sc = new Scanner(System.in);
+		double radius, area;
+		
+		radius = sc.nextDouble();
+		if (radius> 0)
+		
+		{
+			area = 3.142 * radius * radius;
+		
+		System.out.println("Area is " + area);
+		}
+		else 
+			System.out.println("Invalid radius");
+	}
+
+}
