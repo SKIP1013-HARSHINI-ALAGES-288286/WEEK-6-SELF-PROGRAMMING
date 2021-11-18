@@ -1,0 +1,22 @@
+package selfProgramming;
+
+class exercise1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int time = 2, tide = 3; if (time + tide > 6)
+
+			System. out. println ("Time and tide wait for no one.") ;
+		else if (time + tide > 5)
+
+			System. out. println ("Time and tide wait for someone.");
+		else if (time + tide > 4)
+
+			System. out. println ("Time and tide wait for everyone.");
+		else
+
+			System.out. println ("Time and tide wait for me.") ;
+
+	}
+
+}
