@@ -1,0 +1,23 @@
+package selfProgramming;
+import java .util.*;
+public class Slide25 {
+static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) {
+		
+		int age;
+		System.out.print("Enter age: ");
+		age =sc.nextInt();
+		
+		if  ((age >= 25) && (age <= 50))
+		{
+			System.out.println("You are qualified to apply");
+		}
+		else 
+		{
+		     System.out.println("You are NOT qualified to apply");
+		}
+
+
+	}
+
+}
